@@ -6,20 +6,7 @@
 // maxChar("apple 1231111") === "1"
 
 function maxChar(str) {
-  charMap = {}
-  for (let char of str) {
-    charMap[char] = charMap[char] + 1 || 1;
-  }
 
-  let max = 0;
-  let result = '';
-  for (let char in charMap) {
-    if (charMap[char] > max) {
-      result = char;
-      max = charMap[char];
-    }
-  }
-  return result;
 }
 
 module.exports = maxChar;
