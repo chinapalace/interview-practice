@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "reverseint"
+		},
+		{
+			"path": "reversestring"
+		},
+		{
+			"path": "maxchar"
+		},
+		{
+			"path": "palindrome"
+		},
+		{
+			"path": "linkedlist"
+		},
+		{
+			"path": "fib"
+		}
+	],
+	"settings": {}
+}
